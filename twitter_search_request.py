@@ -8,11 +8,9 @@ BEARER_TOKEN = credentials["Bearer Token"]
 
 # define api request function
 def search_twitter(query, tweet_fields, bearer_token = BEARER_TOKEN):
-    headers = {"Authorization": "Bearer {}".format(bearer_token)}
+    headers = {"Authorization": f"Bearer {bearer_token}"}
 
-    url = "https://api.twitter.com/2/tweets/search/recent?query={}&{}".format(
-        query, tweet_fields
-    )
+    url = f"https://api.twitter.com/2/tweets/search/recent?query={query}&{tweet_fields}&{expansion}"
     response = requests.request("GET", url, headers=headers)
 
     print(response.status_code)
@@ -26,7 +24,8 @@ def search_twitter(query, tweet_fields, bearer_token = BEARER_TOKEN):
 query = "gta online"
 
 # twitter fields to be returned by api call
-tweet_fields = "tweet.fields=text,author_id,created_at"
+tweet_fields = "tweet.fields=text,lang,created_at,public_metrics,geo,source"
+expansion = "expansions=author_id&user.fields=name,username,location,protected,verified"
 
 # twitter api call
 json_response = search_twitter(query=query, tweet_fields=tweet_fields, bearer_token=BEARER_TOKEN)
