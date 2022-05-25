@@ -21,7 +21,7 @@ def search_twitter(query, tweet_fields, bearer_token = BEARER_TOKEN):
 
 
 # search term
-query = "gta online"
+query = "(gta online) lang:en -is:retweet"
 
 # twitter fields to be returned by api call
 tweet_fields = "tweet.fields=text,lang,created_at,public_metrics,geo,source"
