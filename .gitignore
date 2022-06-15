@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
+api_responses/
 *.csv
-credentials.json
+*.xlsx
