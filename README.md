@@ -8,5 +8,19 @@ Dabei soll ein Algorithmus entwickelt werden, der die Gesamtstimmung erkennt und
 
 ## Installation
 
-<img width="409" alt="image" src="https://user-images.githubusercontent.com/89083720/176428278-7bd5666a-db00-4908-b7f2-757be7108f97.png">
+```
+import zipfile
+import pandas as pd
+# import nltk
+import re
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+# nltk.download('punkt')
+# nltk.download('omw-1.4')
+# nltk.download('stopwords')
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn import model_selection, naive_bayes, svm
+from sklearn.metrics import accuracy_score
+
+```
 
