@@ -1,6 +1,6 @@
 # DataExploration-KLU
 ***
-##Introduction
+## Introduction
 <br/>
 Das Projekt Karl Lauterbach Researchs besteht aus vier Mitglieder: <br/>
 Florian Frey, Frederick Neugebauer, Anh Vu, Olena Lavrikova.<br/>
