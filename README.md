@@ -23,5 +23,7 @@ from sklearn import model_selection, naive_bayes, svm
 from sklearn.metrics import accuracy_score
 
 ```
+-r requirements.txt
+
 
 ## Quellcode Ausführung
