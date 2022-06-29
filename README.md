@@ -14,12 +14,13 @@ $ pip install -r requirements.txt
 
 Den Quellcode kann auf jupyter notebook aufgeführt werden.
 
-twitter_search_request.py
+twitter_search_request.py <br/>
 Eine API-Request-Funktion, welche Felder von Twitter zurückgibt, werden in einer JSON-Datei gespeichert
 
-data_prep.ipynb
-Twitter API-Daten werden in einer Excel Datei abgespeichert
-training_binary.ipynb
+data_prep.ipynb <br/>
+Twitter API-Daten werden in einer Excel Datei abgespeichert <br/>
 
-training_multiclass.ipynb
+training_binary.ipynb <br/>
+
+training_multiclass.ipynb <br/>
 
