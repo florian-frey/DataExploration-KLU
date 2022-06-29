@@ -1,5 +1,7 @@
 # DataExploration-KLU
 ***
+##Introduction
+<br/>
 Das Projekt Karl Lauterbach Researchs besteht aus vier Mitglieder: <br/>
 Florian Frey, Frederick Neugebauer, Anh Vu, Olena Lavrikova.<br/>
 Das Projektteam beschäftigt sich mit der Stimmungsanalyse auf Twitter Daten. Das Ziel ist die Benutzerreaktionen zu untersuchen. 
