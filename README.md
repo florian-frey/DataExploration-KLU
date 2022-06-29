@@ -11,3 +11,5 @@ $ pip install -r requirements.txt
 
 
 ## Quellcode Ausführung
+
+Den Quellcode kann auf jupyter notebook aufgeführt werden.
