@@ -32,7 +32,7 @@ Dieses startet man mit dem Befehl `jupyter notebook` im Terminal oder mit der en
 
 #### **twitter_search_request.ipynb**
 
-Hier werden die API-Requests definiert und ausgeführt. Die Antworten der API werden in einem Verzeichnis _/api_responses_ gespeichert (von Git ignoriert, um Spam zu vermeiden). Eine Beispielresponse ist im Repository als _example_response.json_ zu finden.
+Hier werden die API-Requests definiert und ausgeführt. Die Antworten der API werden im Verzeichnis _/api_responses_ gespeichert (von Git ignoriert, um Spam zu vermeiden). Eine Beispielresponse ist im genannten Verzeichnis als _example_response.json_ zu finden.
 
 #### **tweets_to_excel.ipynb**
 
