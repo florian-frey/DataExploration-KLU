@@ -13,7 +13,7 @@ Gruppenmitglieder:
 
 ## Introduction
 
-Das Projektteam beschäftigt sich mit der Stimmungsanalyse auf Tweets zu Videospielen. Das Ziel ist die Benutzerreaktionen zu untersuchen.
+Das Projektteam beschäftigt sich mit der Sentiment-Analyse auf Tweets zu Videospielen. Das Ziel ist die Benutzerreaktionen zu untersuchen.
 Dabei soll ein Modell trainiert werden, welches die Gesamtstimmung erkennt und zusammenfasst.
 
 ## Content
@@ -23,7 +23,7 @@ Das Repository beinhaltet die Abschlusspräsentation sowie die Dokumentation in 
 ## Requirements
 
 Es wird eine funktionierende Python 3.x Installation benötigt.
-Mit folgendem Befehl können im Terminal, welche das Verzeichnis ausgewählt hat, die benötigten Module installiert werden: `pip install -r requirements.txt`
+Mit folgendem Befehl können im Terminal, welches das Verzeichnis ausgewählt hat, die benötigten Module installiert werden: `pip install -r requirements.txt`
 
 ## Code
 
