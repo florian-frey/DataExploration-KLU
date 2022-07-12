@@ -4,4 +4,6 @@ pandas
 numpy
 nltk
 sklearn
+matplotlib
+openpyxl
 notebook
